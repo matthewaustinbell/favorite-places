@@ -1,5 +1,5 @@
 {
-    "cities":[
+    "places":[
         {   "id": "city1",
             "cityName": "APPLE TOWN",
             "cityState": "ALABAMA",
@@ -7,7 +7,7 @@
             "favoriteBar": "Red's",
             "favoriteHotel": "Johny Appleseeds",
             "favoriteTouristAttraction": "The Core Attraction",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "https://via.placeholder.com/300"
         },
         {   "id": "city2",
             "cityName": "Boston",
@@ -16,7 +16,7 @@
             "favoriteBar": "The Bell in Hand Bar",
             "favoriteHotel": "Boston Inn",
             "favoriteTouristAttraction": "Liberty Bell",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city3",
             "cityName": "Cat Town",
@@ -25,7 +25,7 @@
             "favoriteBar": "The Cat Nip",
             "favoriteHotel": "Cat Nap",
             "favoriteTouristAttraction": "the litter box",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city4",
             "cityName": "Dog town",
@@ -34,7 +34,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "Something Inn",
             "favoriteTouristAttraction": "The Place",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city5",
             "cityName": "Space Mountain",
@@ -43,7 +43,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "Something Inn",
             "favoriteTouristAttraction": "The Place",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city6",
             "cityName": "Space Mountain",
@@ -52,7 +52,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "Something Inn",
             "favoriteTouristAttraction": "The Place",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city7",
             "cityName": "Space Mountain",
@@ -61,7 +61,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "The Place",
             "favoriteTouristAttraction":"something to see",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city8",
             "cityName": "Space Mountain",
@@ -70,7 +70,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "Something Inn",
             "favoriteTouristAttraction":"something to see",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city9",
             "cityName": "Space Mountain",
@@ -79,7 +79,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "Something Inn",
             "favoriteTouristAttraction":"something to see",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
         },
         {   "id": "city10",
             "cityName": "Space Mountain ",
@@ -88,7 +88,7 @@
             "favoriteBar": "something",
             "favoriteHotel": "Something Inn",
             "favoriteTouristAttraction":"something to see",
-            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
-        },
+            "cityImage": "http://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg"
+        }
     ]
 }
