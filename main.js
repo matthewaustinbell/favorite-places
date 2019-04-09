@@ -1,6 +1,5 @@
 
 // XHR - XmlHttpRequest
-let places = [];
 //constructors are introduced. to use a constructor 'new' then name of constructor. 
 //constructor is a collections of functions or variables, like a pre defined object, like current date. like a method these are predefined, predetermined. 
 //write functions for those two things
@@ -9,24 +8,44 @@ let places = [];
 //constructor is like a bunch of descisions you have to make 
 //DO NOT WRITE A FAT ARROW FOR EITHER OF THESE FUNCTIONS.
 
+let places = []; 
+
 const printToDom = (divId, textToPrint) => {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.innerHTML = textToPrint;
 };
 
 
-const domStringBuilder = (arrayToPrint) => {
+const domStringBuilder = (arrayOfElements) => {
     let domString = '';
-  arrayToPrint.forEach((place) => {
-    domString += `<h3>${place.name}</h3>`;
-  })
+    console.log(arrayOfElements);
+    domString += `<div class="row">`;
+    arrayOfElements.forEach((place) => {
+        domString += `<div class="col-12 col-md-6 col-lg-4">`;
+        domString += `  <div class="card">`;
+        domString += `    <div class="card-header">${place.cityName}`;
+        domString += `    </div>`;
+        domString += `    <img src=${place.cityImage} class="card-img-top" alt= "...">`;
+        domString += `    <div class="card-body">`;
+        domString += `      <dl>`;
+        domString += `        <dt>Favorite Restaurant: </dt>`;
+        domString += `        <dd>${place.favoriteRestaurant}</dd>`;
+        domString += `        <dt>Favorite Bar: </dt>`;
+        domString += `        <dd>${place.favoriteBar}</dd>`;
+        domString += `        <dt>Favorite Hotel: </dt>`;
+        domString += `        <dd>${place.favoriteHotel}</dd>`;
+        domString += `        <dt>Favorite Tourist Attraction: </dt>`;
+        domString += `        <dd>${place.favoriteTouristAttraction}</dd>`;
+        domString += `      </dl>`;
+        domString += `    </div>`;
+        domString += `  </div>`;
+        domString += `</div>`;
+  });
   printToDom('place-container', domString);
 };
     //console.log(arrayToPrint);
     // loops over arrayToPrint and Build up domstring
     //call printToDom
-
-
 
 function executeThisCodeAfterFileLoads(){
     //console.log('yay', this.responseText); //this is where is have access /// these are call back functions
